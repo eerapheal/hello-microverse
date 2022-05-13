@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+*{
+     box-sizing: border-box;
+     font-family: Macondo;
+     color:rgb(100, 25, 63);
+    }
+html, body {
+             margin: 0%;
+             padding: 0%;
+            }
+.headerimg {
+    background-color: rgb(207, 203, 196);
+    background-image: url("image/h.webp");
+    background-size: cover;
+    background-blend-mode:multiply;
+}
+
+.nav ul{
+          margin: 0;
+          margin-bottom: 0%;
+        }
+
+.nav li {
+          display: inline;
+         }
+.nav a {
+         display: inline-block;
+         padding: 0.2em;
+         color: blueviolet;
+         text-decoration: none;
+         text-transform: uppercase;
+        }
+.main-nav {
+                 text-align: center;
+                 
+                 font-size: larger;
+                 font-weight: lighter;
+            }   
+.main-nav li{
+             padding: 5%;
+            } 
+
+
+.nav a:hover{
+             background-color: rgb(204, 194, 180);
+             color: rgb(30, 240, 208);
+             transition-duration: 4s;
+            }
+.topic {
+         text-align: center;
+         font-family: "Booter- zero zero";
+         font-weight:normal;
+         color: rgb(3, 3, 31);
+         text-transform: uppercase;
+         margin-bottom: 1%;
+        } 
+.topic2 {
+          font-size: 1.6em;
+        }
+.con-section {
+                margin: 1em;
+              }
+ .con2-section {
+                  max-width: 900px;
+                  margin: 0 auto;
+                  padding: 0%;
+
+                }     
+.header-sec{
+                 
+            
+                 color: blueviolet;
+                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                 font-size: 2em;
+                 text-align: center;
+                 text-transform: uppercase;
+                 
+                 
+                }
+.imgs{
+      float: left;
+      height: 120px;
+      width: 120px;
+      margin: 15px;
+      border-radius: 50%;
+    } 
+.h31 {
+        text-align: center;
+    }
+    .main-foot{
+                 background-color: rgb(136, 129, 151);
+                 color: rgb(30, 10, 143);
+                 padding: 25px;
+                 text-decoration: none;
+                }
+.div-foot{
+    
+    display: inline;
+    
+
+}
+
+.div-foot ul{
+ flex-grow: 1;
+ text-align: end;
+ }           
+ .div-foot li{
+     margin: 0.5em;
+     padding: 00.0em;
+ }
+ .div-foot img{
+     width: 30px;
+     height: 30px;
+ }
+ .h32{
+     text-align: center;
+     font-size: larger;
+ }
+ 
+ .btn {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 45.5em;
+    padding: 0.67em;
+    cursor: pointer;
+    
+}
+.btn-header {
+    margin-bottom: 1%;
+    color: rgb(4, 28, 48);
+    border: 9px rgb(240, 10, 10);
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 0.80em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: blueviolet;
+    transition-duration: 3s;
+}
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: aqua;
+    border-radius: 28%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.tur-row{
+    border-bottom:  1px solid rgb(27, 27, 25);
+    
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tur-row:last-child {
+    border-bottom: none;
+}
+.date-tur{
+    display: inline-block;
+    padding-right: .5em;
+    
+}
+.last-tur{
+ color: rgb(202, 46, 46);
+ font-weight: bold;
+ width: 11%;
+}
+
+.city{
+   width: 42%;
+   padding-right: .5em;
+}
+
+.arina{
+ max-width: 19%;
+ padding-right: .5em;
+ text-align: center;
+}
+
+.boton{
+    background-color: brown;
+    color: rgb(63, 54, 43);
+    border: 0ex;
+    border-radius: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton:hover{
+    background-color: rgb(170, 25, 175);
+    transition-duration: 3s;
+    text-transform: capitalize;
+    font-size: 0.80em;
+    
+}
+
+.main-divback{
+    background-color: rgb(2, 15, 11);
+    
+    
+    
+}
+.bodyindex {
+background-color: rgb(50, 102, 102);
+
+
+}
